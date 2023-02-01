@@ -5,7 +5,9 @@ During this two week sprint I worked on an ASP.NET MVC C# project with a code fi
 
 ## First task was to create entity model for Rental and CRUD pages. (BackEnd)
 This required me to create an enity model for the Rental class so that rentals can be saved to the database. Create the Rental class along with RentalEqupiment and RentalRoom classes. RentalEqupiment and RentalRoom should inherit from Rental. After that, create the controller and scoffold the CRUD pages for it. I used the EnitityFramework to create the Index, Edit, Create, Details anf Delete pages and added the Layout.cshtml as a layout page. 
-(rental model picture)
+
+![](AnimationStyling.gif) 
+
 Using NuGet Package Manager Console, I was able to update the database to create the table with the rental, RentalEquipment and RentalCost. This program had automatic migrations enabled. Within the Controllers, I then added a new MVC5 Controller with views using Entity Framework, including a layout page. This created the neccessary CRUD pages for create and edit pages.
 
 ## Second task was to style the create and edit page. (FrontEnd)
