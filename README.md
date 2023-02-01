@@ -4,6 +4,7 @@
 During this two week sprint I worked on an ASP.NET MVC C# project with a code first Entity Framework Database. Being able to work on a project in the middle of its lifecycle allowed me to collaborate with other developers on the project and see how they were able to solve problems, create features, and see how all the different functions of the program came together. I worked on the back end and front end of the CRUD for the create and edit pages.
 
 ## First tasks was to to use JavaScript to count the number of names of the developers that have worked on this project and display them next to the title and to use a bootstrap badge to style the number. (FrontEnd)
+![](images/NumOfDevs.png)
 
 ### Code for the span with id="NumPersons." So that it may be dynamically updated with JavaScript to display a number of developers. The classes "badge" and "badge-secondary" are used in Bootstrap to style the span as a badge with a secondary appearance.
 ![](images/SignInCode.png)
@@ -24,8 +25,8 @@ Using NuGet Package Manager Console, I was able to update the database to create
 - Style the Submit and Back to List Buttons with a color distinction between the two.
 - Add placeholders to all input fields
 - Change the input fields border when clicked to match the theme of the website and the color input field to change when clicked as well.
-![](https://github.com/Jalen-Allison/-CSharp-CRUD-For-Theater-Website/blob/main/images/AnimationStyling.gif)
+![](https://github.com/Jalen-Allison/-CSharp-CRUD-For-Theater-Website/blob/main/images/AnimationStylingStory1.gif)
 
-## Fourth was task to Create & Edit for inherited classes. (FrontEnd & BackEnd)
+## Fourth task was to Create & Edit for inherited classes. (FrontEnd & BackEnd)
 Create a dropdown on the Create and Edit pages for selecting one of the Rental types. Depending on what the user chooses in the dropdown, show/hide input fields in the form. The create and Edit methods should be able to create or edit Rentals, RentalsEquipment, and RentalRooms.
 (rDropDown) This is to link the rental types and for creating the dropdown list.
