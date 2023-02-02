@@ -71,5 +71,19 @@ If the ModelState is valid, the method adds the "Rental" object to the database 
 If none of the conditions are met, the method returns the original view with the "Rental" model object passed as the parameter.
 ![](images/Controller.png)
 
+## Skills learned
+- I learned to look up more specific questions by using key terms in the actual code while searching the question instead of asking a broad overall question and digging and digging for an answer which wasn't using my time efficitantly.
 
+- Utilized version control features more effectively to avoid merge conflicts and outdated local repositories by pulling from the master and merging into my current local repository.
+
+- Used Microsoft Azure DevOps to manage user stories/tasks and learned the aspects of the workflow. This showed me every step of the project along with was what had been completed and once done what should be completed next. This made it transparent for where I am and where/how other developers were approaching their tasks.
+
+- Worked with a project manager to ensure tasks being completed and files being edited were not in conflict with work other developers were completing.
+
+- Gained real-life project experience and was able to see how Agile practices work in a practical work setting.
+
+- Participated in aspects of Agile / SCRUM Practices:
+  - 1 Sprint Planning Meeting
+  - 8 Daily Stand-ups
+  - 2 Code Retrospectives
 
