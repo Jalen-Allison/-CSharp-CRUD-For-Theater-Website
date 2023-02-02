@@ -36,6 +36,11 @@ This generated a form group that contains a label and an input control for the "
 This is a Razor code that generates an HTML anchor (link) element for returning to a list of items. It creates an action link that displays the text "Back to List" and when clicked, it will redirect the user to the "Index" action in the current controller. The link has an HTML class attribute "btn rental-create--BackToListButton" that can be used to style the link using CSS.
 ![](images/SubmitBackTo.png)
 
+### CSS for first task/all the forms
+![](images/header.png)
+![](images/Hover.png)
+![](images/Focus.png)
+
 ## Fourth task: Create & Edit for inherited classes. (FrontEnd & BackEnd)
 I created a dropdown on the Create and Edit pages for selecting one of the Rental types. Depending on what the user chooses in the dropdown, it shows/hides the input fields in the form.
 ![](https://github.com/Jalen-Allison/-CSharp-CRUD-For-Theater-Website/blob/main/images/Animation.gif)
