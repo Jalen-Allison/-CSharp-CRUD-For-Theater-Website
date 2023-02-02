@@ -58,3 +58,18 @@ The third argument to the method sets the prompt text to "Rental Options". The p
 These two codes below creates a section of the form that displays information for the different properties of RentalEquipment and RentalRoom. The section is hidden by default, indicated by the "style" attribute with "display: none;". The section contains a form group with a label and an editor for the "ChokingHazard" model property, and a validation message to display any errors.
 ![](images/hidden1.png)
 ![](images/hidden2.png)
+
+Then this is the JavaScript for it to show and hide when clicked.
+![](images/JSshowhide.png)
+
+### Code for the Controller
+The method takes in several parameters, including the "Rental" model object, several optional integer values (PurchasePrice, RoomNumber, SquareFootage, MaxOccupancy), and two optional boolean values (ChokingHazard, SuffocationHazard).
+
+The method first checks if PurchasePrice > 0. If so, it creates a new "RentalEquipment" object, sets its properties to the values of the corresponding properties of the "Rental" object, and adds it to the database. Then it returns a redirect to the "Index" action.
+If RoomNumber > 0, the method creates a new "RentalRoom" object, sets its properties to the values of the corresponding properties of the "Rental" object, and adds it to the database. Then it returns a redirect to the "Index" action.
+If the ModelState is valid, the method adds the "Rental" object to the database and returns a redirect to the "Index" action.
+If none of the conditions are met, the method returns the original view with the "Rental" model object passed as the parameter.
+![](images/Controller.png)
+
+
+
