@@ -28,13 +28,21 @@ Using NuGet Package Manager Console, I was able to update the database to create
 - I changed the input fields border so when clicked it would match the theme of the website and the color input field to change when clicked as well.
 ![](https://github.com/Jalen-Allison/-CSharp-CRUD-For-Theater-Website/blob/main/images/AnimationStylingStory1.gif)
 
+### Code for the form group
+This generated a form group that contains a label and an input control for the "RentalName, RentalCost and FlawsandDamages" properties of the model, along with a validation message that displays any error related to the those properties.
+![](images/Formgroup.png)
+
+### Code for the Submit and BackTo
+This is a Razor code that generates an HTML anchor (link) element for returning to a list of items. It creates an action link that displays the text "Back to List" and when clicked, it will redirect the user to the "Index" action in the current controller. The link has an HTML class attribute "btn rental-create--BackToListButton" that can be used to style the link using CSS.
+![](images/SubmitBackTo.png)
+
 ## Fourth task was to Create & Edit for inherited classes. (FrontEnd & BackEnd)
 I created a dropdown on the Create and Edit pages for selecting one of the Rental types. Depending on what the user chooses in the dropdown, it shows/hides the input fields in the form.
 ![](https://github.com/Jalen-Allison/-CSharp-CRUD-For-Theater-Website/blob/main/images/Animation.gif)
 
 
 ### Code for creating the instances of the classes
-The code sets the ViewBag.Title property to "Create", sets the layout page to "~/Views/Shared/_Layout.cshtml", and creates instances of the classes RentalEquipment and RentalRoom.
+This code sets the ViewBag.Title property to "Create", sets the layout page to "~/Views/Shared/_Layout.cshtml", and creates instances of the classes RentalEquipment and RentalRoom.
 For the RentalEquipment instance, it retrieves the values of the properties ChokingHazard, SuffocationHazard, and PurchasePrice and assigns them to local variables with the same name.
 For the RentalRoom instance, it retrieves the values of the properties RoomNumber, SquareFootage, and MaxOccupancy and assigns them to local variables with the same name.
 ![](images/rDropdown.png)
@@ -46,3 +54,7 @@ The second argument to the method creates a SelectList with the values obtained 
 The third argument to the method sets the prompt text to "Rental Options". The prompt text is the default text that appears in the drop-down list before an item is selected.
 ![](images/Dropdown.png)
 
+### Code for showing/hiding the imput fields
+These two codes below creates a section of the form that displays information for the different properties of RentalEquipment and RentalRoom. The section is hidden by default, indicated by the "style" attribute with "display: none;". The section contains a form group with a label and an editor for the "ChokingHazard" model property, and a validation message to display any errors.
+![](images/hidden1.png)
+![](images/hidden2.png)
