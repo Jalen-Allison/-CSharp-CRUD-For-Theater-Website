@@ -59,7 +59,7 @@ The second argument to the method creates a SelectList with the values obtained 
 The third argument to the method sets the prompt text to "Rental Options". The prompt text is the default text that appears in the drop-down list before an item is selected.
 ![](images/Dropdown.png)
 
-### Code for showing/hiding the imput fields
+### Code for showing/hiding the input fields
 These two codes below creates a section of the form that displays information for the different properties of RentalEquipment and RentalRoom. The section is hidden by default, indicated by the "style" attribute with "display: none;". The section contains a form group with a label and an editor for the "ChokingHazard" model property, and a validation message to display any errors.
 ![](images/hidden1.png)
 ![](images/hidden2.png)
