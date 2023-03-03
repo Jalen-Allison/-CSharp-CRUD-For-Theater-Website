@@ -14,7 +14,7 @@ The span with id="NumPersons" is so that it may be dynamically updated with Java
 ![](images/JSForNum.png)
 
 ## Second task: create entity model for Rental and CRUD pages. (BackEnd)
-This required me to create an enity model for the Rental class so that rentals can be saved to the database. I created the Rental class along with RentalEqupiment and RentalRoom classes. RentalEqupiment and RentalRoom inherits from Rental. After that, I created the controller and scoffolded the CRUD pages for it. I used the EnitityFramework to create the Index, Edit, Create, Details and Delete pages and added the Layout.cshtml as a layout page. 
+This required me to create an enity model for the Rental class so that rentals can be saved to the database. I created the Rental class along with RentalEqupiment and RentalRoom classes. RentalEqupiment and RentalRoom inherits from Rental. After that, I created the controller(determines what response to send back to a user when a user makes a browser request) and scoffolded (generating a generic application) the CRUD pages for it. I used the EnitityFramework to create the Index, Edit, Create, Details and Delete pages and added the Layout.cshtml as a layout page. 
 
  ### Code for classes
  ![](images/rental(model).png)
