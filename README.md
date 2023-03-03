@@ -1,7 +1,7 @@
 # -CSharp-CRUD-For-Theater-Website
 
 # Introduction
-During this two-week sprint, I worked on an ASP.NET MVC C# project with a code-first Entity Framework Database. I worked on a project in the middle of its lifecycle for a local theater's website. I worked on the back end and front end of the CRUD for the create and edit pages. During this, I collaborated with other developers. This allowed me to see how other developers were able to solve problems, create features, and see how all the different functions of the program come together working with a team. 
+During this two-week sprint, I worked on an ASP.NET MVC C# project with a code-first Entity Framework Database. I worked on a project in the middle of its lifecycle for a local theater's website. I worked on the back end and front end of the CRUD for the create and edit pages. There were different stories describing the tasks that needed to be completed through Azure DevOps. During this, I collaborated with other developers. This allowed me to see how other developers were able to solve problems, create features, and see how all the different functions of the program come together working with a team. 
 
 ## First tasks: Use JavaScript to count the number of names of the developers that have worked on this project and display them next to the title and to use a bootstrap badge to style the number. (FrontEnd)
 ![](images/NumOfDevs.png)
